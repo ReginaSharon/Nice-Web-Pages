@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<h1>Home page</h1>
+<br>
+<br>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>Welcome to My blog where we discuss about various topics like Computer Science, Web development, Machine learning, Data science and much more. This page is a mini version of Medium. To check out Medium <a href="https://medium.com/">Click here</a> </p>
+            <p>Hope this helps you out. Thanks!</p>
+            <p>
+                <a class="btn btn-primary" href="/posts" role="button">Go To Posts&raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
+{% endblock %}
